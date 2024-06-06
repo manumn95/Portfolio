@@ -8,9 +8,11 @@ const About = () => {
           ABOUT ME
         </h1>
         <div className="row mt-5 ">
-          <div className="col-md-12 d-flex gap-5">
+          <div className="col-md-4 d-flex gap-5">
             <img src={profile} className="profile-img"></img>
-            <div className="d-flex flex-column justify-content-center ">
+          </div>
+          <div className="col-md-8">
+            <div className="d-flex flex-column justify-content-center h-100 ">
               <h3>Introduction:</h3>
               <p className="gradient-Text mt-3">
                 Hello! I'm Manu MN, a passionate and dedicated Full Stack MERN

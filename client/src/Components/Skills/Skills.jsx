@@ -15,82 +15,83 @@ const Skills = () => {
     <>
       <div className="container" id="skills">
         <h1 className="gradient-Text text-center mt-5">Skills</h1>
-        <div className="row mt-5">
-          <div className="col-md-2 skill-container">
-            <div className="p-3">
-              <img src={html}></img>
-              <p>HTML</p>
+        <div className="row mt-5 ">
+          <div className="d-flex flex-wrap justify-content-evenly">
+            <div className="skill-container fs-3">
+              <div className="p-5">
+                <img src={html}></img>
+                <p>HTML</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={css} className="fs-2"></img>
-              <p>CSS</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={css} className="fs-2"></img>
+                <p>CSS</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={js} className="fs-2"></img>
-              <p>JavaScript</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={js}></img>
+                <p>JavaScript</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={bootstrap} className="fs-2"></img>
-              <p>Bootstrap</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={bootstrap}></img>
+                <p>Bootstrap</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img
-                src={express}
-                className="fs-2 rounded"
-                style={{ width: "48px", height: "48px" }}
-              ></img>
-              <p>Express JS</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img
+                  src={express}
+                  className="rounded"
+                  style={{ width: "48px", height: "48px" }}
+                ></img>
+                <p>Express JS</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={mongodb} className="fs-2"></img>
-              <p>MongoDb</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={mongodb}></img>
+                <p>MongoDb</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={mysql} className="fs-2"></img>
-              <p>Mysql</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={mysql}></img>
+                <p>Mysql</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={node} className="fs-2"></img>
-              <p>Node JS</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={node}></img>
+                <p>Node JS</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img src={git} className="fs-2"></img>
-              <p>Git Hub</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img src={git}></img>
+                <p>Git Hub</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-2 skill-container">
-            <div className=" p-3">
-              <img
-                src={netlify}
-                className="fs-2"
-                style={{ width: "48px", height: "48px" }}
-              ></img>
-              <p>Netlify</p>
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img
+                  src={netlify}
+                  style={{ width: "48px", height: "48px" }}
+                ></img>
+                <p>Netlify</p>
+              </div>
             </div>
           </div>
         </div>
