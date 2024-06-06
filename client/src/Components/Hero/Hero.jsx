@@ -61,7 +61,9 @@ const Hero = () => {
             </a>
           </div>
           <div className="d-flex justify-content-center mt-5 gap-2">
-            <button className="btn btn-warning">Download Resume</button>
+            <a href="" className="btn btn-warning">
+              Download Resume
+            </a>
             <button className="btn btn-success">Hire me</button>
           </div>
         </div>
