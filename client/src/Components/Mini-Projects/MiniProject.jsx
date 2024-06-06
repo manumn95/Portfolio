@@ -46,14 +46,14 @@ const MiniProject = () => {
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
-                  href="https://corso-training-app.netlify.app"
+                  href="https://mini-calc-project.netlify.app"
                   target="blank"
                 >
                   Live
                 </a>
                 <a
                   className="btn btn-warning"
-                  href="https://github.com/manumn95/bootstrap-projects"
+                  href="https://github.com/manumn95/mini_projects/tree/mini-calc-project"
                   target="blank"
                 >
                   Source
