@@ -65,7 +65,6 @@ const Hero = () => {
             <a href={resume} download="FSD-CV.pdf" className="btn btn-warning">
               Download Resume
             </a>
-            <button className="btn btn-success">Hire me</button>
           </div>
         </div>
 
