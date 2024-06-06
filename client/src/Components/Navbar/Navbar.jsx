@@ -1,10 +1,13 @@
+import { useState } from "react";
 import "./Navbar.css";
+import ContactModal from "../ContactModal";
 
 const Navbar = () => {
+  const [ismodal, setIsModal] = useState(false);
+
   return (
     <>
       <div className="conatiner-fluid background sticky-top">
-        
         <nav className=" container navbar navbar-expand-lg navbar-dark  ">
           <div className="container-fluid">
             <a className="navbar-brand logo gradient-Text  p-2 fs-3" href="#">
@@ -52,13 +55,20 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-              <button type="button" className="btn1 text-white  " href="#">
+              <button
+                type="button"
+                className="btn1 text-white  "
+                onClick={() => setIsModal(true)}
+              >
                 Contact Me
               </button>
             </div>
           </div>
         </nav>
       </div>
+      {ismodal && (
+        <ContactModal show={ismodal} setIsmodal={setIsModal}></ContactModal>
+      )}
     </>
   );
 };
