@@ -1,5 +1,5 @@
 import "./CapstoneProject.css";
-import video from "../../assets/recording.mp4";
+import video from "../../assets/videos.mp4";
 
 const CapstoneProject = () => {
   return (
@@ -7,31 +7,6 @@ const CapstoneProject = () => {
       <div className="container mt-5" id="projects">
         <h1 className="gradient-Text text-center">Projects</h1>
         <h4>Capstone-Project:</h4>
-        {/* <div className="row mt-5">
-          <div className="col-md-4 border p-2 shadow">
-            <div>
-              <img src={calc} className="image-style"></img>
-              <h1 className="text-center">Mini-calculator</h1>
-              <p className="text-center">HTML,CSS,JS and bootstrap</p>
-              <div className="d-flex justify-content-center gap-5">
-                <a
-                  href="https://mini-calc-project.netlify.app"
-                  target="blank"
-                  className=" btn btn1"
-                >
-                  Live
-                </a>
-                <a
-                  href="https://github.com/manumn95/mini_projects/tree/mini-calc-project"
-                  target="blank"
-                  className=" btn btn1"
-                >
-                  Source
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="row  ">
           <div className="col-md-6 p-5">
