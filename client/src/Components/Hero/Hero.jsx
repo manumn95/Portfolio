@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import "../Hero/Hero.css";
-import resume from "../../assets/FSD-CV.pdf";
+import resume from "../../assets/Manu.pdf";
 
 const Hero = () => {
   return (
@@ -62,7 +62,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="d-flex justify-content-center mt-5 gap-2">
-            <a href={resume} download="FSD-CV.pdf" className="btn btn-warning">
+            <a href={resume} download="Manu.pdf" className="btn btn-warning">
               Download Resume
             </a>
           </div>
