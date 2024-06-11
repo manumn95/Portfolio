@@ -245,9 +245,7 @@ const MiniProject = () => {
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={thunk} className="image-style"></img>
               <p className="lead text-center gradient-Text">CURD</p>
-              <p className="text-white">
-                (using Redux-thunk,React,bootstrap,axios,fetch Api)
-              </p>
+              <p className="text-white">(using Redux-thunk,React,bootstrap)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
