@@ -8,6 +8,7 @@ import todo from '../../assets/todo.png';
 import shopping from '../../assets/shopping.png';
 import curd from '../../assets/curd.png';
 import worldmap from '../../assets/worldmap.png';
+import thunk from '../../assets/thunk.png'
 
 const MiniProject = () => {
   return (
@@ -236,6 +237,32 @@ const MiniProject = () => {
                 <a
                   className="btn btn-warning"
                   href="https://github.com/manumn95/country_map-react_project/tree/master/world_map_project"
+                  target="blank"
+                >
+                  Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4 mb-5">
+            <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
+              <img src={thunk} className="image-style"></img>
+              <p className="lead text-center gradient-Text">
+           CURD
+              </p>
+              <p className="text-white">(using Redux-thunk,React,bootstrap,axios,fetch Api)</p>
+              <div className="d-flex gap-2 mt-2 justify-content-center">
+                <a
+                  className="btn btn-success"
+                  href="https://curd-thunk.vercel.app/"
+                  target="blank"
+                >
+                  Live
+                </a>
+                <a
+                  className="btn btn-warning"
+                  href="https://github.com/manumn95/CURD-Thunk"
                   target="blank"
                 >
                   Source
