@@ -2,13 +2,13 @@ import "../Mini-Projects/MiniProjects.css";
 import bootstrp1 from "../../assets/bootstrap1.png";
 import calc from "../../assets/calc.png";
 import currency from "../../assets/currency-convertor.png";
-import random from '../../assets/random.png';
-import weather from '../../assets/weather.png';
-import todo from '../../assets/todo.png';
-import shopping from '../../assets/shopping.png';
-import curd from '../../assets/curd.png';
-import worldmap from '../../assets/worldmap.png';
-import thunk from '../../assets/thunk.png'
+import random from "../../assets/random.png";
+import weather from "../../assets/weather.png";
+import todo from "../../assets/todo.png";
+import shopping from "../../assets/shopping.png";
+import curd from "../../assets/curd.png";
+import worldmap from "../../assets/worldmap.png";
+import thunk from "../../assets/thunk.png";
 
 const MiniProject = () => {
   return (
@@ -92,9 +92,7 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5 ">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={random} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-               Random Quotes
-              </p>
+              <p className="lead text-center gradient-Text">Random Quotes</p>
               <p className="text-white">(using Html,css,bootstrap,js)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
@@ -118,10 +116,10 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={weather} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-              Weather App
+              <p className="lead text-center gradient-Text">Weather App</p>
+              <p className="text-white">
+                (using Html,css,bootstrap,js,fetch Api)
               </p>
-              <p className="text-white">(using Html,css,bootstrap,js,fetch Api)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
@@ -144,9 +142,7 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={todo} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-             Todo App
-              </p>
+              <p className="lead text-center gradient-Text">Todo App</p>
               <p className="text-white">(using React,bootstrap,)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
@@ -170,10 +166,10 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5 ">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={shopping} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-           Shopping Cart
+              <p className="lead text-center gradient-Text">Shopping Cart</p>
+              <p className="text-white">
+                (using React,bootstrap,Redux,fetch Api)
               </p>
-              <p className="text-white">(using React,bootstrap,Redux,fetch Api)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
@@ -196,10 +192,10 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5 ">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={curd} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-           CURD Opertion
+              <p className="lead text-center gradient-Text">CURD Opertion</p>
+              <p className="text-white">
+                (using React,bootstrap,axios,fetch Api)
               </p>
-              <p className="text-white">(using React,bootstrap,axios,fetch Api)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
@@ -222,10 +218,10 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={worldmap} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-           Worldmap
+              <p className="lead text-center gradient-Text">Worldmap</p>
+              <p className="text-white">
+                (using React,bootstrap,axios,fetch Api)
               </p>
-              <p className="text-white">(using React,bootstrap,axios,fetch Api)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
@@ -248,10 +244,10 @@ const MiniProject = () => {
           <div className="col-md-4 mb-5">
             <div className="d-flex flex-column justify-content-center align-items-center custom p-3 container-animation">
               <img src={thunk} className="image-style"></img>
-              <p className="lead text-center gradient-Text">
-           CURD
+              <p className="lead text-center gradient-Text">CURD</p>
+              <p className="text-white">
+                (using Redux-thunk,React,bootstrap,axios,fetch Api)
               </p>
-              <p className="text-white">(using Redux-thunk,React,bootstrap,axios,fetch Api)</p>
               <div className="d-flex gap-2 mt-2 justify-content-center">
                 <a
                   className="btn btn-success"
@@ -270,7 +266,6 @@ const MiniProject = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </>
