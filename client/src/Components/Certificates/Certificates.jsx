@@ -7,6 +7,7 @@ import node from "../../assets/Ndjs.png";
 import mysql from "../../assets/my-sql.png";
 import mongodb from "../../assets/Mdb.png";
 import FSD from "../../assets/FSD.png";
+import aws from "../../assets/AWS-cert.png";
 
 const Certificates = () => {
   return (
@@ -73,6 +74,13 @@ const Certificates = () => {
             <div className="card">
               <img src={mongodb}></img>
               <p className="text-center mt-3">MongoDb</p>
+            </div>
+          </div>
+
+          <div className="col-md-4 mb-5">
+            <div className="card">
+              <img src={aws}></img>
+              <p className="text-center mt-3">AWS</p>
             </div>
           </div>
         </div>
