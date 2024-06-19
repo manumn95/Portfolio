@@ -6,7 +6,7 @@ const CapstoneProject = () => {
     <>
       <div className="container mt-5" id="projects">
         <h1 className="gradient-Text text-center">Projects</h1>
-        <h4>Capstone-Project:</h4>
+        <h4 className="mt-3">Capstone-Project:</h4>
 
         <div className="row  ">
           <div className="col-md-6 p-5">

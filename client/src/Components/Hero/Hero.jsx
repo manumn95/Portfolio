@@ -6,6 +6,10 @@ const Hero = () => {
   return (
     <div className="container mt-5" id="home">
       <div className="row">
+        <div className="col-md-4 d-flex justify-content-center ">
+          <div className="img "></div>
+        </div>
+
         <div className="col-md-8 text-center">
           <h1 className="fs-1 heading">I'm a</h1>
 
@@ -66,10 +70,6 @@ const Hero = () => {
               Download Resume
             </a>
           </div>
-        </div>
-
-        <div className="col-md-4 mt-5 ">
-          <div className="img "></div>
         </div>
       </div>
       <div className="d-flex justify-content-center mt-5 scroll ">

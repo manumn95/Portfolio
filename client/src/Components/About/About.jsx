@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="col-md-8">
             <div className="d-flex flex-column justify-content-center h-100 ">
-              <h3>Introduction:</h3>
+              <h3 className="mt-3">Introduction:</h3>
               <p className="gradient-Text mt-3">
                 Hello! I'm Manu MN, a passionate and dedicated Full Stack MERN
                 Developer. After a career break of six years, I have
