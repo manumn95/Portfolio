@@ -74,8 +74,12 @@ const Hero = () => {
               <i className="bx bxl-netlify fs-1 p-2"></i>
             </a>
           </div>
-          <div className="d-flex justify-content-center mt-5 gap-2">
-            <a href={resume} download="Manu.pdf" className="btn btn-warning">
+          <div className="d-flex justify-content-center mt-5  gap-2">
+            <a
+              href={resume}
+              download="Manu.pdf"
+              className="btn btn-warning mb-5"
+            >
               Download Resume
             </a>
           </div>
