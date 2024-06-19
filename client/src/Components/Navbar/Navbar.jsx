@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css";
 import ContactModal from "../ContactModal";
+import { Link, Outlet } from "react-router-dom";
 
 const Navbar = () => {
   const [ismodal, setIsModal] = useState(false);
@@ -30,29 +31,34 @@ const Navbar = () => {
                 style={{ width: "100%" }}
               >
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#home">
+                  <Link className="nav-link" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#about">
+                  <Link className="nav-link" aria-current="page" to="about">
                     About Me
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#skills">
+                  <Link className="nav-link" to="skills">
                     Skills
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#projects">
+                  <Link className="nav-link" to="capstoneProject">
                     Project
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">
+                  <Link className="nav-link" to="certificates">
+                    Certificates
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <button
@@ -69,6 +75,7 @@ const Navbar = () => {
       {ismodal && (
         <ContactModal show={ismodal} setIsmodal={setIsModal}></ContactModal>
       )}
+      <Outlet></Outlet>
     </>
   );
 };

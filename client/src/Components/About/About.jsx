@@ -3,11 +3,11 @@ import profile from "../../assets/profile.jpg";
 const About = () => {
   return (
     <>
-      <section className="about-section mt-5 container" id="about">
+      <section className="mt-5 container" id="about">
         <h1 className="section-title gradient-Text text-center about-section">
           ABOUT ME
         </h1>
-        <div className="row mt-5 ">
+        <div className="row  ">
           <div className="col-md-4 d-flex gap-5">
             <img src={profile} className="profile-img"></img>
           </div>

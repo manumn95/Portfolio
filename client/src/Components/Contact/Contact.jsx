@@ -1,9 +1,8 @@
 import "../Contact/Contact.css";
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import { toast,ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,9 +27,11 @@ const Contact = () => {
 
     emailjs.send(serviceID, templateID, formData, publicKey).then(
       (result) => {
-       
         setFormData({ user_name: "", email_id: "", message: "" });
-        toast.success("Your message has been sent successfully! I'll get back to you as soon as possible." +result.text);
+        toast.success(
+          "Your message has been sent successfully! I'll get back to you as soon as possible." +
+            result.text
+        );
       },
       (error) => {
         toast.error("Failed to send email. Error:", error.text);
@@ -40,7 +41,11 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container" id="contact">
+      <div
+        className="container d-flex flex-column justify-content-center"
+        style={{ marginTop: "100px" }}
+        id="contact"
+      >
         <h1 className="text-center gradient-Text">Contact Me</h1>
         <div className="row">
           <div className="col-md-3"></div>

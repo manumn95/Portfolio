@@ -4,8 +4,17 @@ import resume from "../../assets/Manu.pdf";
 
 const Hero = () => {
   return (
-    <div className="container mt-5" id="home">
-      <div className="row">
+    <div className="container " id="home">
+      <div
+        className="row"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+
+          marginTop: "50px",
+        }}
+      >
         <div className="col-md-4 d-flex justify-content-center ">
           <div className="img "></div>
         </div>
@@ -71,13 +80,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="d-flex justify-content-center mt-5 scroll ">
-        <a href="#about" className="text-white">
-          <i className="bx bx-mouse "></i>
-          <span>Scroll Down</span>
-          <i className="bx bx-down-arrow-alt"></i>
-        </a>
       </div>
     </div>
   );

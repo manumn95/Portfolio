@@ -1,5 +1,6 @@
 import "./CapstoneProject.css";
 import video from "../../assets/videos.mp4";
+import MiniProject from "../Mini-Projects/MiniProject";
 
 const CapstoneProject = () => {
   return (
@@ -63,6 +64,7 @@ const CapstoneProject = () => {
           </div>
         </div>
       </div>
+      <MiniProject></MiniProject>
     </>
   );
 };
